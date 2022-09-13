@@ -27,13 +27,11 @@ console.log(c+b)
 console.log(a+c)
 console.log(c+b)
 console.log(a+b+c)
-
 // number + number + string 
 //  10     + 20    + hello
 //       30        + hello 
 //'30hello'
 console.log(c+b+a)
-
 // string + number + number
 // 'hello'+  20    + 10
 //    'hello20'    + 10
