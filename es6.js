@@ -117,9 +117,7 @@ let infoa = {
         father:"shirish",
         mother:"kanchan"
     }
-
 }
-
 console.log(infoa.parent?.father)
 
 

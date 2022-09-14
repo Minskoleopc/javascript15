@@ -98,11 +98,3 @@ let marks = 66
 
 
 
-function GetIUserId(){
-    fetch('https://reqres.in/api/users?page=2')
-    .then(function(res){
-        console.log(res)
-    })
-
-}
-GetIUserId()

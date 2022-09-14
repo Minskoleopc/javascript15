@@ -59,3 +59,5 @@ while(userInput != randomNumber){
 }
 
 
+https://reqres.in     /api/users     ?page=2  // API 
+// Basel url           resource       queryparameter   --- Pagewise  GEt

@@ -5,9 +5,7 @@
 // numberOfTicket  > 5 && numberOfTicket <= 10 ---> 10 %  6-10 
 // numberOfTicket > 10 -----> 20 %
 
-
 // conditial if and else 
-
 // if(condition){
 
 // }
@@ -85,12 +83,11 @@ let b = 500
 // }
 
 // Ternary operator
+// a > b ?console.log('a is greater'):console.log('b is greater')
 
-a > b ?console.log('a is greater'):console.log('b is greater')
-
-let age = 18
-let q2 = age>= 17 ? "can drive":"cannot drive"
-console.log(q2)
+// let age = 18
+// let q2 = age>= 17 ? "can drive":"cannot drive"
+// console.log(q2)
 
 
 

@@ -65,12 +65,11 @@ for(let i = 1 ; i <=5 ; i++){  // 2 // 3
 
 // continue statement with for 
 
-
-for(let i = 0 ; i <= 5 ; i++){
+for(let i = 1; i <= 5 ; i++){ // 2 // 3 // 4 // 5 // 6
     if(i == 3){
         continue
     }
-    console.log(i)
+    console.log(i) // 1 // 2 // 4 // 5
 }
 
 

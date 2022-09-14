@@ -57,12 +57,10 @@
 // }
 
 // until condition is met 
-
 let randomNumber2 = Math.floor(Math.random()*6)+1 // 3
 console.log(randomNumber2)
 let userInput;
 //console.log(userInput) undefined
-
 while(userInput != randomNumber2){
     userInput = prompt('Enter any number between 1 to 6') // 3
     if(userInput == randomNumber2){
@@ -73,6 +71,7 @@ while(userInput != randomNumber2){
     }
 }
 
+// 7:30pm
 
 
 
