@@ -98,6 +98,8 @@ function addCity(obj) {
 let obj = addCity(student)
 console.log(obj)
 
+student.city = "pune"
+
 
 // let qq = 10 
 // console.log(qq)
