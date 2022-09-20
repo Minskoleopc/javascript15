@@ -77,7 +77,7 @@ console.log(q4)
 let marks = [45, 33, 44, 55, 66, 45, 65, 76, 88]
 function above40(arr) {
     let q5 = arr.filter(function (el) {
-        return el > 40
+        return el > 40 // [45,55,66,45,65,76,88]
     })
     return q5
 }
@@ -99,13 +99,54 @@ let obj = addCity(student)
 console.log(obj)
 
 
-let qq = 10 
-console.log(qq)
+// let qq = 10 
+// console.log(qq)
 
 
-let add = function(x,y){
+// let add = function(x,y){
+//     return x + y
+// }
+// console.log(add)
+// let q7 = add(12,14) // calling the function
+// console.log(q7)
+
+// function as a parameter to another function
+
+let x = 10
+console.log(x)
+
+let addition = function(x,y){
     return x + y
 }
-console.log(add)
-let q7 = add(12,14) // calling the function
-console.log(q7)
+
+function add(x,y,fn){
+    // let x = 12
+    // let y = 13
+    // let fn = function(x,y){
+    // return x + y
+    //}
+   let z =  fn(x,y)
+   return z
+}
+let q10 = add(12,13,addition)
+console.log(q10)
+
+// Difference between printing definition and calling function
+// console.log(addition)
+// let x1 = addition(12,2) //calling the function
+// console.log(x1) // 14
+
+// function as a return type from another function
+function multiplication(x,y){
+    console.log(x*y) // 36
+    return function(){
+        console.log('retuen')
+    }
+}
+let q11 = multiplication(12,3)
+console.log(q11)
+
+// let q11 = function(){
+//     console.log('returned')
+// }
+q11() // call
