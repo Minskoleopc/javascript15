@@ -82,3 +82,6 @@ console.log(amol4)
 // update    amol.firstName = 'Tanmay' // amol['firstName'] = "Ram"
 // add       amol.city = "pune" , amol['lang'] = "Hindi"
 // delete    delete amol.firstName  delete amol.lastName
+
+// 8 am 
+// 7:30pm
