@@ -1,0 +1,19 @@
+
+
+h1 {
+    color:blue
+}
+
+.fruit {
+    color: red;
+    background-color: yellow;
+}
+
+.vegetable {
+    color:green;
+    background-color:orange;
+}
+
+#one {
+    color:purple;
+}
