@@ -74,10 +74,6 @@ console.log(amol4)
 
 
 
-
-
-
-
 // retrive   amol.firstName // amol['firstName']
 // update    amol.firstName = 'Tanmay' // amol['firstName'] = "Ram"
 // add       amol.city = "pune" , amol['lang'] = "Hindi"
@@ -85,3 +81,4 @@ console.log(amol4)
 
 // 8 am 
 // 7:30pm
+// 8:30am / 8:30pm

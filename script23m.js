@@ -109,3 +109,6 @@ console.log(poorva)
 // program 2 - class with out constructor (set the object property values outside)
 // program 3 - using constructor('setting the value at the time of object creation')
 // program 4 - using setMethod to set values
+
+// 10 am 
+// 8:30 pm

@@ -116,7 +116,6 @@ let students = [
 ]
 
 let [{firstName:f11,lastName:l11},{firstName:f12,lastName:l12}] = students
-
 console.log(f11)
 console.log(l11)
 console.log(f12)

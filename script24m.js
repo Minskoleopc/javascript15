@@ -93,10 +93,7 @@ setA1.forEach(function(el){
     console.log(el)
 })
 
-
 //console.log(setA1)
-
-
 let info2 = {
     firstName:"chinmay",
     lastName:"deshpande",
@@ -118,7 +115,6 @@ for(let val of Object.values(info2)){
 }
 
 console.log('-------------------')
-
 for(let [key,val] of Object.entries(info2)){
     console.log(key,val)
 }

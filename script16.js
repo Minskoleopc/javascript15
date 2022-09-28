@@ -99,5 +99,5 @@ let person = {
 //  dot notation does not work inside loop
 //  bracket notation
 for(let property in person){
-    console.log(property)
+    console.log(property,person[property])
 }

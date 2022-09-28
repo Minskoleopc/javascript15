@@ -114,7 +114,6 @@ function addAndUpadte(obj,arr){
 }
 
 addAndUpadte(vehicle,cities)
-
 console.log(vehicle)
 console.log(cities)
 
