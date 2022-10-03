@@ -8,7 +8,9 @@ addButton.addEventListener('click', function () {
     // createElement
     let newLi = document.createElement('li') // <li></li>
     newLi.textContent = text
-    CreateButton(newLi)
+    CreateButton(newLi,'remove','remove')
+    CreateButton(newLi,'up','up')
+    CreateButton(newLi,'down','down')
     ulList.appendChild(newLi)
     inputText.value = ""
 
@@ -57,24 +59,11 @@ ulList.addEventListener('click',function(event){
 
 })
 
-
-function CreateButton(li) {
-    let remove = document.createElement('button')// <button></button>
-    remove.textContent = "Remove" //  <button>Remove</button>
-    remove.className = "remove" // <button class = "remove">Remove</button>
-    li.appendChild(remove)
-
-    let up = document.createElement('button')
-    up.textContent = "Up"
-    up.className = "up"
-    li.appendChild(up)
-
-
-    let down = document.createElement('button')
-    down.textContent = "Down"
-    down.className = "down"
-    li.appendChild(down)
-
+function CreateButton(li,text,className) {
+    let Nbutton = document.createElement('button')
+    Nbutton.textContent = text 
+    Nbutton.className = className
+    li.appendChild(Nbutton)
 }
 
 
