@@ -1,11 +1,10 @@
 
 // style css cannot be retrives using style.css property
-let headOne = document.querySelector('h1')
-let buttonA = document.querySelector('button')
-console.log(headOne.style)
-let style = getComputedStyle(headOne)
-console.log(style)
-
+// let headOne = document.querySelector('h1')
+// let buttonA = document.querySelector('button')
+// console.log(headOne.style)
+// let style = getComputedStyle(headOne)
+// console.log(style)
 
 // inlines css ---- you retrive this
 // let headTwo = document.querySelector('h2')
@@ -57,8 +56,8 @@ console.log(style)
 
 // scrollIntoView
 
-let IdElement  = document.querySelector('#two')
-buttonA.addEventListener('click',function(){
-    //window.scrollTo(IdElement)
-    IdElement.scrollIntoView()
-})
+// let IdElement  = document.querySelector('#two')
+// buttonA.addEventListener('click',function(){
+//     //window.scrollTo(IdElement)
+//     IdElement.scrollIntoView()
+// })
