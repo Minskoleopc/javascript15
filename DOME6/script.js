@@ -50,13 +50,13 @@ buttonB.addEventListener('mouseout', function () {
 //     document.write(`<h1>${userCity}</h1>`)
 // })
 
-let readButton = document.querySelector('.reload')
-readButton.addEventListener('click',function(){
-    window.location.reload()
-})
+// let readButton = document.querySelector('.reload')
+// readButton.addEventListener('click',function(){
+//     window.location.reload()
+// })
 
-let neLi = document.querySelector('#one')
-let scrollButton = document.querySelector('.scrollv')
-scrollButton.addEventListener('click',function(){
-    neLi.scrollIntoView()
-})
+// let neLi = document.querySelector('#one')
+// let scrollButton = document.querySelector('.scrollv')
+// scrollButton.addEventListener('click',function(){
+//     neLi.scrollIntoView()
+// })
