@@ -109,30 +109,6 @@ display3.apply(info4,["Good Morning"])
 // call() , bind() , apply() // ----
 // manually setting the value of this keyword
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // let x = 10
 // console.log(x)
 // console.log(amol.display)

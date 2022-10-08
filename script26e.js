@@ -80,6 +80,8 @@ let info3 = {
 let greet = function(word){
     console.log(`${word} ${this.firsName} !`)
 }
+
+//greet("hello")
 greet.call(info3,"Good morning")
 greet.apply(info3,["Good morning"])
 
