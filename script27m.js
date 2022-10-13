@@ -101,7 +101,6 @@ var lastName = "dani"
 // }
 // info.display()
 
-
 // this ====> window
 let info = {
     firstName:"chinmay",
