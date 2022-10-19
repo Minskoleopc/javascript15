@@ -60,19 +60,16 @@ class Mother {
 }
 
 class SonA extends Mother {
-
     constructor(firstName,lastName,Sname){
         super(firstName,lastName)
         this.Sname = Sname
     }
-
     displaySName(){
         console.log(this.Sname + this.lastName)
     }
 }
 
 class DaughterA extends Mother{
-
     constructor(firstName,lastName,Dname){
         super(firstName,lastName)
         this.Dname = Dname
@@ -82,4 +79,6 @@ class DaughterA extends Mother{
     }
 }
 
-}
+
+let SonA = new SonA("kanchan","deshpande","chinmay")
+let DaughterA = new DaughterA("kanchan","deshpande","gauri")
