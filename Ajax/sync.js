@@ -182,6 +182,7 @@ pro2.then(function(a){
 // 8.00 am ---- > 8:10am
 // Sunday , Monday , Tuesday , Wednesday
 // Thursday ---- Cypress
+// Cypress ---- Playwright
 
 
 
