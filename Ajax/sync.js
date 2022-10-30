@@ -185,6 +185,9 @@ pro2.then(function(a){
 // Cypress ---- Playwright
 
 
+// DXC --- NCR ---- 1500 NAB -- cypress
+// DXC ---- 200 --- 40
+
 
 
 
